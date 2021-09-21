@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/* Table Section */
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+    
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+/* Button Section */
+.btn-primary {
+    background-color: teal;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color:moccasin;
+}
+
+.btn-secondary {
+    background-color: forestgreen;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: moccasin;
+}
+
+.btn-danger {
+    background-color: red;
+    padding: 1%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: moccasin;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: mediumvioletred;
+}
+
+/* Menu Section */
+.menu {
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #191f3a;
+}
+
+.menu ul li a:hover {
+    color: #191f3a;
+}
+
+/* Main Content Section */
+.main-content {
+    background-color: slategray;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: coral;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #eaa023;
+    color: #fff;
+}
+
+/* Login Section */
+.login {
+    border: 1px solid gray;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
